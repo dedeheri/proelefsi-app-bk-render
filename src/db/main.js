@@ -7,10 +7,12 @@ async function coonection() {
       useUnifiedTopology: true,
     };
 
-    await mongoose.connect(process.env.DATABASE_URL, config);
+    await mongoose.connect(
+      "mongodb+srv://proelefsi:222200046ok@cluster0.dyyt0rv.mongodb.net/?retryWrites=true&w=majority",
+      config
+    );
     console.log("database connecting");
   } catch (error) {
-    console.log("here");
     console.log(error);
   }
 }
