@@ -1,0 +1,119 @@
+{
+    "FORM" : {
+        "EXCEPTION" : "Terjadi Kesalahan dalam validasi form",
+        "FULLNAME" : "Name Lengkap tidak boleh kosong",
+        "EMAIL" : "Email tidak boleh kosong",
+        "FORMAT_EMAIL" : "Format email tidak didukung",
+        "PASSWORD" : "Kata Sandi tidak boleh kosong",
+        "MIN_PASSWORD" : "Kata Sandi minimal 6 karakter atau lebih",
+        "IMAGE" : "Gambar tidak boleh kosong",
+        "OTP" : "OTP tidak boleh kosong",
+        "ROLE" : "Peran tidak boleh kosong",
+        "BIODATA" : "Biodata tidak boleh kosong",
+        "REPEAT_PASSWORD" : "Ulangi Kata sandi tidak boleh kosong",
+        "REPEAT_PASSWORD_NOT_SAME" : "Kata sandi tidak sama"
+    },
+    "ERROR" : {
+        "WRONG": "Terjadi Kesalahan",
+        "MULTER" : "Hanya mendukung format gambar png, jpg, webp dan gif",
+        "NOT_SIGNIN" : "Harap masuk untuk melanjutkan"
+    },
+    "SIGNIN" : {
+        "EMAIL_NOT_EXIST" : "Email belum terdaftar",
+        "WRONG_PASSWORD" : "Kata sandi Salah",
+        "SUCCESS" : "Berhasil masuk",
+        "FAILED" : "Gagal masuk"
+    },
+    "SIGNUP" : {
+        "SUCCESS" : "Berhasil menambahkan e-mail",
+        "EMAIL_EXIST" : "Email sudah tersedia"
+    },
+    "OTP" : {
+        "EXPIRED" : "OTP telah kedaluwarsa, silakan masukkan OTP baru",
+        "EMAIL_SEND_FAILED": "Terjadi Kesalahan saat mengirim e-mail, coba lagi nanti",
+        "EMAIL_SEND_SUCCESS": "Masukkan kode konfirmasi yang kami kirim ke",
+        "VERIFY_SUCCESS": "Behasil memvalidasi OTP",
+        "VERIFY_FAILED" : "OTP Salah, mohon masukan otp yang benar"
+    },
+    "FORGET" : {
+        "EXPIRED" : "Token telah keduawarsa, silahkan ulangi reset kata sandi",
+        "VERIFY" : "Verifikasi token berhasil",
+        "EMAIL_SEND_SUCCESS" : "Tautan untuk mengubah kata sandi sudah dikirim ke",
+        "EMAIL_SEND_FAILED": "Terjadi Kesalahan saat mengirim email, coba lagi nanti"
+    },
+    "RESET" : {
+        "SUCCESS" : "Berhasil mengubah kata sandi"
+    },
+    "VERIFY" : {
+        "EMAIL" : "Email anda belum di verifikasi, mohon hubungi admin.",
+        "OTP" : "OTP anda belum terverifikasi, silahkan login kembali."
+    },
+    "ARTICLE" : {
+        "TITLE" : "Judul tidak boleh kosong",
+        "CONTENT" : "Content tidak boleh kosong",
+        "IMAGE" : "Gambar tidak boleh kosong",
+        "TOPICS" : "Topik tidak boleh kosong",
+        "ADD" : "Berhasil ditambahkan",
+        "NOT_AVAILABLE" : "Artikel tidak tersedia",
+        "DELETE" : "Berhasil menghapus",
+        "NOT_FOUND" : "Artikel yang anda tambahkan akan muncul di sini",
+        "UPDATE" : "Berhasil memperbaharui",
+        "DRAFT" : "Berhasil diubah",
+        "YOU" : "Anda"
+    },
+    "ACCOUNT" : {
+        "DELETE" : "Akun sudah di hapus"
+    },
+    "MESSAGE" : {
+        "SUCCESS" : "Berhasil"
+    },
+    "USER" : {
+        "NOUSERS" : "Pengguna tidak dapat ditemukan"
+    },
+    "TOPICS" : {
+        "DESCRIPTION" : "Keterangan tidak boleh kosong",
+        "IMAGE" : "Gambar tidak boleh kosong",
+        "TOPICS" : "Topik tidak boleh kosong",
+        "ADD" : "Berhasil ditambahkan",
+        "DELETE" : "Berhasil menghapus",
+        "EXIST" : "Topik sudah tersedia",
+        "NOEXIST" : "Topik tidak tersedia",
+        "UPDATE" : "Berhasil memperbaharui", 
+        "NOT_FOUND" : "Topik akan ditunjukkan disini",
+        "NOTEDITED" : "Belum disunting"
+    }, 
+    "USERS" : {
+        "ROLE" : {
+            "Writter" : "Penulis",
+            "Editor" : "Penyunting",
+            "Admin" : "Admin"
+        },
+        "CHANGE_PASSWORD" : "Berhasil mengubah kata sandi",
+        "CHANGE_NAME" : "Nama Lengkap berhasil di ubah",
+        "EMAIL_NOT_VERIFY" : "Email tidak terverifikasi",
+        "EMAIL_VERIFY" : "Email sudah diverifikasi",
+        "NOT_FOUND" : "Pengguna tidak dapat ditemukan",
+        "SUCCESS_CHANGE" : "Berhasil mengubah peran",
+        "SUCCESS_VERIFY" : "Berhasil verifikasi email",
+        "AUHORIZATION" : "Maaf, Otorisasi pengguna",
+        "SUCCESS_CHANGE_PROFILE" : "Berhasil mengubah poto profil",
+        "SUCCESS_CHANGE_BIODATA" : "Berhasil mengubah biodata",
+        "SUCCESS_DELETE_ACCOUNT" : "Berhasil hapus akun"
+    },
+    "ROLE" : {
+        "EXIST" : "Perang sudah tersedia",
+        "EMPTY" : "Peran akan ditunjukkan disini",
+        "Editor" : "Penyunting",
+        "Writter" : "Penulis",
+        "Moderator" : "Moderator",
+        "Admin" : "Admin"
+    },
+    "FEEDBACK": {
+        "SUCCESS_ADD" : "Terima kasih, masukan anda sangat berarti bagi kami",
+        "FEEDBACK_INPUT" : "Masukan tidak boleh kosong"
+     },
+     "REPORT": {
+        "REPORT_SUCCESS" : "Terima kasih, laporan Anda sangat berarti bagi kami",
+        "REPORT_INPUT" : "Laporan tidak boleh kosong"
+     }
+}

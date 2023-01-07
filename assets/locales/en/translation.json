@@ -1,0 +1,121 @@
+{
+    "FORM" : {
+        "EXCEPTION" : "Occurs in form validation",
+        "FULLNAME" : "Full Name cannot be empty",
+        "EMAIL" : "Email cannot be empty",
+        "FORMAT_EMAIL" : "Email format not supported",
+        "PASSWORD" : "Password cannot be empty",
+        "MIN_PASSWORD" : "Password minimum 6 characters or more",
+        "IMAGE" : "Image cannot be empty",
+        "OTP" : "OTP cannot be empty",
+        "ROLE" : "Role cannot be empty",
+        "BIODATA" : "Biodata cannot be empty",
+        "REPEAT_PASSWORD" : "Repeat password cannot be empty",
+        "REPEAT_PASSWORD_NOT_SAME" : "Password is not the same"
+    },
+    "ERROR" : {
+        "NETWORK" : "Something error with your network, please try again",
+        "WRONG": "There is an error",
+        "MULTER" : "Only supports png, jpg, webp and gif image formats",
+        "NOT_SIGNIN" : "Please login to continue"
+    },
+    "SIGNIN" : {
+        "EMAIL_NOT_EXIST" : "Email not registered",
+        "WRONG_PASSWORD" : "Wrong password",
+        "SUCCESS" : "Login successfully",
+        "FAILED" : "Login failed"
+    },
+    "SIGNUP" : {
+        "SUCCESS" : "Successfully added email",
+        "EMAIL_EXIST" : "Email is available"
+    },
+    "OTP" : {
+        "EXPIRED" : "OTP has expired, please enter a new OTP",
+        "EMAIL_SEND_FAILED": "An error occurred while sending the email, please try again later",
+        "EMAIL_SEND_SUCCESS": "Enter the confirmation code we sent to",
+        "VERIFY_SUCCESS": "Successfully validated OTP",
+        "VERIFY_FAILED" : "Wrong OTP, please enter the correct OTP"
+    },
+    "FORGET" : {
+        "EXPIRED" : "The token has expired, please repeat the password reset",
+        "VERIFY" : "Token verification successful",
+        "EMAIL_SEND_SUCCESS" : "The link to change the password has been sent to",
+        "EMAIL_SEND_FAILED": "An error occurred while sending the email, please try again later"
+    },
+    "RESET" : {
+        "SUCCESS" : "Successfully changed password"
+    },
+    "VERIFY" : {
+        "EMAIL" : "Your email has not been verified, please contact admin.",
+        "OTP" : "Your OTP has not been verified, please login again."
+    },
+    "ARTICLE" : {
+        "TITLE" : "Title cannot be empty",
+        "CONTENT" : "Content cannot be empty",
+        "IMAGE" : "Image cannot be empty",
+        "TOPICS" : "Topics cannot be empty",
+        "ADD" : "Added successfully",
+        "NOT_AVAILABLE" : "Article not available",
+        "DELETE" : "Delete successfully",
+        "NOT_FOUND" : "Articles you add will appear here",
+        "UPDATE" : "Successfully updated",
+        "DRAFT" : "Successfully changed",
+        "YOU" : "You"
+    },
+    "ACCOUNT" : {
+        "DELETE" : "Account has deleted"
+    },
+    "MESSAGE" : {
+        "SUCCESS" : "Success"
+    },
+    "USER" : {
+        "NOUSERS" : "User could not be found"
+    },
+    "TOPICS" : {
+        "DESCRIPTION" : "Description cannot be empty",
+        "IMAGE" : "Image cannot be empty",
+        "TOPICS" : "Topics cannot be empty",
+        "ADD" : "Added successfully",
+        "DELETE" : "Delete successfully",
+        "EXIST" : "Topics is available",
+        "NOEXIST" : "Topics not already available",
+        "UPDATE" : "Successfully updated",
+        "NOT_FOUND" : "Topic will be shown here",
+        "NOTEDITED" : "Not Edited"
+    }, 
+    "USERS" : {
+        "ROLE" : {
+            "Writter" : "Writter",
+            "Editor" : "Editor",
+            "Admin" : "Admin"
+        },
+        "CHANGE_PASSWORD" : "Successfully changed password",
+        "CHANGE_NAME" : "Full Name changed successfully",
+        "EMAIL_NOT_VERIFY" : "E-mail is not verified",
+        "EMAIL_VERIFY" : "Email verified",
+        "NOT_FOUND" : "User could not be found",
+        "NO_POSTED_ARTICLE" : "The user hasn't posted an article yet",
+        "SUCCESS_CHANGE" : "Successfully changed roles",
+        "SUCCESS_VERIFY" : "Successfully verify email",
+        "AUHORIZATION" : "Sorry, User authorization",
+        "SUCCESS_CHANGE_PROFILE" : "Successfully changed photo profile",
+        "SUCCESS_CHANGE_BIODATA" : "Successfully changed biodata",
+        "SUCCESS_DELETE_ACCOUNT" : "Successfully deleted account"
+    },
+    "ROLE" : {
+        "EXIST" : "Role is available", 
+        "EMPTY" : "Role will be shown here",
+        "Editor" : "Editor",
+        "Writter" : "Writter",
+        "Moderator" : "Moderator",
+        "Admin" : "Admin"
+     },
+     "FEEDBACK": {
+        "SUCCESS_ADD" : "Thank you, your feedback means a lot to us",
+        "FEEDBACK_INPUT" : "Feedback cannot be empty"
+     },
+     "REPORT": {
+        "REPORT_SUCCESS" : "Thank you, your report means a lot to us",
+        "REPORT_INPUT" : "REPORT cannot be empty"
+     }
+}
