@@ -33,7 +33,12 @@ const e = express();
 
 // middleware
 e.use(bodyParser.json());
-e.use(cors({ origin: true, credentials: true }));
+e.use(
+  cors({
+    origin: "https://proelefsi-app-fe-varcel.vercel.app",
+    credentials: true,
+  })
+);
 e.use(cookieParser(process.env.COOKIE_SECRET));
 e.use(helmet());
 
