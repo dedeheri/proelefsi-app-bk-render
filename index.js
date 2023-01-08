@@ -37,7 +37,7 @@ e.use(cors({ origin: true, credentials: true }));
 e.use(cookieParser(process.env.COOKIE_SECRET));
 e.use(helmet());
 
-app.use(
+e.use(
   session({
     secret: "yoursecret",
     cookie: {
