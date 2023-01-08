@@ -8,6 +8,7 @@ import path from "path";
 import i18next from "i18next";
 import il8nextMiddleware from "i18next-http-middleware";
 import il8nextBackend from "i18next-node-fs-backend";
+import session from "express-session";
 
 // utils
 import coonection from "./src/db/main.js";
@@ -35,6 +36,27 @@ e.use(bodyParser.json());
 e.use(cors({ origin: true, credentials: true }));
 e.use(cookieParser(process.env.COOKIE_SECRET));
 e.use(helmet());
+
+app.use(
+  session({
+    secret: "yoursecret",
+    cookie: {
+      path: "/",
+      domain: process.env.CLIENT_URL,
+      maxAge: 1000 * 60 * 24, // 24 hours
+    },
+  })
+);
+app.use(function (req, res, next) {
+  res.header("Access-Control-Allow-Credentials", true);
+  res.header("Access-Control-Allow-Origin", req.headers.origin);
+  res.header("Access-Control-Allow-Methods", "GET,PUT,POST,DELETE");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept"
+  );
+  next();
+});
 
 // database
 coonection();

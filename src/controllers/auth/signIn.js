@@ -30,7 +30,10 @@ async function signIn(req, res) {
 
     // remeberme
     if (remember_me) {
-      const configCookie = { maxAge: 30 * 24 * 3600000 };
+      const configCookie = {
+        maxAge: 30 * 24 * 3600000,
+        domain: "https://proelefsi-app-fe-varcel.vercel.app/",
+      };
       res.cookie("uid", users._id, configCookie);
       res.cookie("remember_me", true, configCookie);
     } else {
