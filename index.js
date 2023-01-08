@@ -35,34 +35,12 @@ const e = express();
 e.use(bodyParser.json());
 e.use(
   cors({
+    origin: "https://proelefsi-app-fe-varcel.vercel.app",
     credentials: true,
   })
 );
 e.use(cookieParser(process.env.COOKIE_SECRET));
 e.use(helmet());
-
-e.use(
-  session({
-    secret: "yoursecret",
-    resave: true,
-    saveUninitialized: true,
-    cookie: {
-      path: "/",
-      domain: process.env.CLIENT_URL,
-      maxAge: 1000 * 60 * 24, // 24 hours
-    },
-  })
-);
-e.use(function (req, res, next) {
-  res.header("Access-Control-Allow-Credentials", true);
-  res.header("Access-Control-Allow-Origin", req.headers.origin);
-  res.header("Access-Control-Allow-Methods", "GET,PUT,POST,DELETE");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept"
-  );
-  next();
-});
 
 // database
 coonection();
