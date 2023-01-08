@@ -35,7 +35,6 @@ const e = express();
 e.use(bodyParser.json());
 e.use(
   cors({
-    origin: "https://proelefsi-app-fe-varcel.vercel.app",
     credentials: true,
   })
 );
